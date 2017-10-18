@@ -1,4 +1,4 @@
-Scaling and Normalization:
+Scaling and Normalization: http://sebastianraschka.com/Articles/2014_about_feature_scaling.html#about-standardization
 
 About standardization:
 The result of standardization (or Z-score normalization) is that the features will be rescaled so that they’ll have the properties of a standard normal distribution with μ=0 and σ=1
