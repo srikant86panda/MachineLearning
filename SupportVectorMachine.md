@@ -23,8 +23,9 @@
 ### C 
 * For large values of C, the penalty for misclassifying points is very high, so the decision boundary will perfectly separate the data if possible. So risking of overfitting.
 * Smaller value of C means penalty for misclassifying points is low, so the model may not fully learn leading to underfitting.
-### Gamma
-* For a low gamma, the model will be too constrained and include all points of the training dataset, without really capturing the shape. for a higher gamma, the model will capture the shape of the dataset well.
+### Gamma(https://github.com/srikant86panda/MachineLearning/blob/master/SVM_Gamma.png)
+* For a low gamma, the model will be too constrained and include all points of the training dataset, without really capturing the shape, leading to underfitting.
+* For a higher gamma, the model will capture the shape of the dataset well leading to overfitting. 
 
 
 
