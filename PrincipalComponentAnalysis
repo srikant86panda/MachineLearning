@@ -1,4 +1,0 @@
-Principal Component Analysis:
-PCA analyzes the variances of the different features.
-
-Cross-validation should be done in order to find out what choice of features would yield a optimal balance between “preserving information” and “overfitting” for different classifiers. 
