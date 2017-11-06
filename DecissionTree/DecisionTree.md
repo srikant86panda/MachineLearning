@@ -18,9 +18,7 @@
 * There is no way we can overfit.
 * Adds trees with equal weights.
 # Boosting:
-```
-This is an ensemble method that seeks to create a strong classifier (model) based on “weak” classifiers. In this context, weak and strong refer to a measure of how correlated are the learners to the actual target variable. By adding models on top of each other iteratively, the errors of the previous model are corrected by the next predictor, until the training data is accurately predicted or reproduced by the model.
-```
+```This is an ensemble method that seeks to create a strong classifier (model) based on “weak” classifiers. In this context, weak and strong refer to a measure of how correlated are the learners to the actual target variable. By adding models on top of each other iteratively, the errors of the previous model are corrected by the next predictor, until the training data is accurately predicted or reproduced by the model.```
 * Averages of many trees each grown to re-weighted versions of the training data.
 * Wighting decorrelates the trees by focusing on the regions missed by past trees.
 * Final classifies is weighted average of calssifiers.
